@@ -1,11 +1,7 @@
+import { CommonProps } from './common';
 import { ClientEvents, Awaitable, Client} from 'discord.js'
 
-type LoggerFunction = (...args: unknown[]) => void
-
-export interface EventsProps {
-  client: Client,
-  log: LoggerFunction
-}
+export interface EventsProps extends CommonProps {}
 
 export type EventKeys = keyof ClientEvents
 
