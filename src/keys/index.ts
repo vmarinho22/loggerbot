@@ -6,6 +6,5 @@ const keys: Keys = {
 
 if (Object.values(keys).includes('nil'))
   throw new Error('Not all ENV variables are defined!');
-  process.exit(1);
 
 export default keys;
