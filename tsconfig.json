@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"]
     },
     "plugins": [
       {
